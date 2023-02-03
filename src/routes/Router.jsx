@@ -14,7 +14,7 @@ function Router() {
                 <Route exact path="/teste-deploy-vite/" element={<Home />} />
                 <Route exact path="/teste-deploy-vite/home" element={<Home />} />
                 <Route exact path="/teste-deploy-vite/about" element={<About />} />
-                <Route path="*" element={<NotFound />} />
+                <Route path="/teste-deploy-vite/*" element={<NotFound />} />
             </Routes>
         </BrowserRouter>
     )
