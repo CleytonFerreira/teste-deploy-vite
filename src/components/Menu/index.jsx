@@ -1,16 +1,17 @@
 import { Link } from 'react-router-dom'
+const baseUrl = "/teste-deploy-vite"
 
 function Menu() {
     return (
         <nav>
             <ul>
                 <li>
-                    <Link to="/teste-deploy-vite/home">
+                    <Link to="/home">
                         Home
                     </Link>
                 </li>
                 <li>
-                    <Link to="/teste-deploy-vite/about">
+                    <Link to="/about">
                         About
                     </Link>
                 </li>
